@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Cabin&family=Montserrat:wght@300&display=swap');
+
+.row1{
+    background-color: #f7f7f7;
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+.tailtag_nav{
+    margin: 26px 0px;
+}
+.tailtag_nav .navbar-nav .nav-item .nav-link{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #001D23;
+}
+.tailtag_nav .navbar-nav .nav-item{
+    padding: 0px 25px;
+}
+.row2 {
+    margin-top: 30px;
+}
+.row2 h3{
+    color: #00843c;
+    font-size: 28px;
+}
+.row2 h5{
+    padding: 10px 20%;
+}
+.h5-1{
+    margin-top: 20px;
+}
+.pet-image{
+    width: 200px;
+    /* height: 190px; */
+    margin: auto;
+    border: 5px solid #1fac5e ;border-radius: 100%;
+}
+
+/* td{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 0px 20px;
+    text-align: left;
+} */
+label{
+    text-align: left;
+    font-size: 19px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+.row3 input{
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 12px 0px;
+    border: 1px solid #333;
+    background-color:#f1f1f1
+}
+.row3 a{
+    padding: 10px 20px;
+    background: #1fac5e;
+    color: #fff;
+    margin-top: 25px;
+    text-decoration:none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 19px;
+    line-height: 3;
+}
+.row3 a:hover{
+    background: #0f934b;
+}
